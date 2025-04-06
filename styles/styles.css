@@ -1,4 +1,4 @@
-/* General Reset */
+/* General styling */
 * {
     margin: 0;
     padding: 0;
@@ -11,10 +11,9 @@ body {
     color: #333;
 }
 
-/* Header Section */
+/* Header Section using a background image in the navigation section*/
 .header {
-    background-image: url('../assets/vic_falls.jpeg'); /* Replace with your image path */
-    background-size: cover;
+    background-image: url('../assets/vic_falls.jpeg'); 
     background-position: center;
     color: #fff;
     text-align: center;
@@ -49,7 +48,7 @@ body {
     color: #6a0dad; /* Purple hover color */
 }
 
-/* Section Styling */
+/* Section Styling to center the content for all the sections */
 .section {
     padding: 50px 20px;
     text-align: center;
@@ -91,7 +90,7 @@ body {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
 
-/* Gallery Grid */
+/* Gallery Grid holding the images */
 .grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -102,7 +101,7 @@ body {
 .grid-item {
     position: relative;
     overflow: hidden;
-    aspect-ratio: 1 / 1; /* Ensures a square aspect ratio */
+    aspect-ratio: 1 / 1; /* Ensures a square aspect for image uniformity */
 }
 
 .grid-item img {
@@ -119,7 +118,7 @@ body {
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Adds a stronger shadow for a 3D effect */
 }
 
-/* Contact Form */
+/* Contact Form styling */
 .contact-form {
     max-width: 500px;
     margin: 0 auto;
@@ -135,7 +134,7 @@ body {
 .contact-form input,
 .contact-form textarea {
     width: 100%;
-    padding: 10px 5px; /* Add padding for better spacing */
+    padding: 10px 5px; 
     margin-bottom: 15px;
     border: none; /* Remove all borders */
     border-bottom: 2px solid #ccc; /* Add a line at the bottom */
@@ -150,7 +149,7 @@ body {
     border-bottom: 2px solid #ff9800; /* Highlight the bottom line on focus */
 }
 
-/* Contact Form Submit Button */
+/* Contact Form Submit Button styling */
 .contact-form .btn {
     display: inline-block;
     background-color: #000; /* Black background */
@@ -174,7 +173,7 @@ body {
     padding: 20px;
 }
 
-/* Resources Section */
+/* Resources Section styling for the resource links */
 .resource-list {
     list-style: none; /* Remove default bullet points */
     padding: 0;
@@ -182,7 +181,7 @@ body {
 }
 
 .resource-list li {
-    margin: 10px 0; /* Add spacing between list items */
+    margin: 10px 0; /* Add spacing between list items for better readability */
 }
 
 .resource-list a {
@@ -198,7 +197,7 @@ body {
     transform: scale(1.05); /* Slightly enlarge the link on hover */
 }
 
-/* Responsive Design */
+/* Responsive Design for smaller screen sizes (Tablet and Mobile) */
 @media (max-width: 768px) {
     .nav-list {
         flex-direction: column;
@@ -233,6 +232,6 @@ body {
 
     .introduction, .about {
         max-width: 100%; /* Full width for mobile */
-        padding: 15px; /* Reduce padding for smaller screens */
+        padding: 15px; /* Reduce padding for mobile screens */
     }
 }
