@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Image Grid</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header id="header" class="header">
+        <div class="header-content">
+            <h1 class="site-title">Image Grid</h1>
+            <nav class="navbar">
+                <ul class="nav-list">
+                    <li><a href="#introduction" class="nav-link">Intro</a></li>
+                    <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                    <li><a href="#about" class="nav-link">About Me</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                    <li><a href="#resources" class="nav-link">Resources</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Introduction Section -->
+        <section id="introduction" class="section introduction">
+            <h2>Introduction</h2>
+            <p>Welcome to my image grid showcasing the beautiful country of Zambia. From its amazing tourist destinations
+                to its rich culture, Zambia is a place of wonder and beauty. This grid features some of the most iconic 
+                locations and experiences that make Zambia a unique destination. Whether you're planning a visit or just 
+                exploring from afar, I hope this collection inspires you to learn more about this incredible country.
+            </p>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery" class="section gallery">
+            <h2>Gallery</h2>
+            <div class="grid-container">
+                <div class="grid-item"><img src="./assets/arcades.jpeg" alt="arcades"></div>
+                <div class="grid-item"><img src="./assets/carousel_mall.jpeg" alt="carousel_mall"></div>
+                <div class="grid-item"><img src="./assets/ceremony.jpeg" alt="ceremony"></div>
+                <div class="grid-item"><img src="./assets/ceremony2.jpeg" alt="ceremony2"></div>
+                <div class="grid-item"><img src="./assets/garden_city.jpeg" alt="garden_city"></div>
+                <div class="grid-item"><img src="./assets/hydro_dam.jpeg" alt="hydro_dam"></div>
+                <div class="grid-item"><img src="./assets/vic_falls.jpeg" alt="vic_falls"></div>
+                <div class="grid-item"><img src="./assets/warriors.jpeg" alt="warriors"></div>
+                <div class="grid-item"><img src="./assets/nyau.jpeg" alt="carousel_mall"></div>
+                <div class="grid-item"><img src="./assets/cairo-road.jpeg" alt="ceremony"></div>
+                <div class="grid-item"><img src="./assets/pamodzi.jpeg" alt="ceremony2"></div>
+                <div class="grid-item"><img src="./assets/pre-independence.jpeg" alt="garden_city"></div>
+                <div class="grid-item"><img src="./assets/resort.jpeg" alt="hydro_dam"></div>
+                <div class="grid-item"><img src="./assets/scenary.jpeg" alt="vic_falls"></div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section about">
+            <h2>About Me</h2>
+            <p>Hey there! I’m William Mweemba, a tech enthusiast, problem solver, and lifelong learner who’s always eager to 
+                explore new technologies. With over a decade of experience across the service, banking, and financial sectors, 
+                I’ve had the opportunity to work on transformative IT projects, from core banking migrations to mobile banking 
+                rollouts. Throughout my career, I’ve worn many hats—system administrator, infrastructure manager, network 
+                specialist—all of which have strengthened my ability to bridge the gap between business needs and technical 
+                solutions.
+            </p>
+            <p>But if we’re being honest—I always wanted to be a developer. Now, as part of the PLP Feb 2025 Cohort, I’m making 
+                that dream a reality! I love experimenting with new tools, hacks, and practices to see what works (and what doesn’t)
+                , and I’m especially fascinated by AI and how it can be applied to solve real-world problems. My approach to 
+                technology is hands-on—I believe the best way to understand something is to test, break, and refine it until you 
+                unlock its full potential.
+            </p>
+            <p>I thrive in dynamic environments where innovation and creativity fuel problem-solving. Whether it’s optimizing 
+                business processes, implementing security best practices, or building intuitive user experiences, I’m always up 
+                for a challenge. When I’m not deep-diving into the latest tech trends, you’ll probably find me tinkering with new 
+                ideas, refining my skills, or helping businesses leverage technology for growth.</p>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact">
+            <h2>Contact</h2>
+            <form class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit" class="btn">Send</button>
+            </form>
+        </section>
+
+        <!-- Resources Section -->
+        <section id="resources" class="section resources">
+            <h2>Other Resources</h2>
+            <ul class="resource-list">
+                <li><a href="https://mynetworknexus.com" target="_blank">My Blog</a></li>
+                <li><a href="https://mynexusgroup.com" target="_blank">My Startup</a></li>
+                <li><a href="https://linkedin.com/in/wmweemba" target="_blank">LinkedIn</a></li>
+                <li><a href="https://github.com/wmweemba" target="_blank">GitHub</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 Designed by WSM</p>
+    </footer>
+</body>
+</html>
